@@ -1,0 +1,30 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        enter the number <input id="num">
+        <button onclick="check()">submit</button>
+        <script>
+            function check()
+            {
+                var num=document.getElementById("num").value;
+                if(num==0)
+                {
+                    document.write("the number is  zero");
+
+                }
+                else if(num>0)
+                {
+                    document.write("the number is +ve");
+                }
+                else
+                {
+                    document.write("the number is -ve");
+                }
+
+            }
+
+        </script>
+    </body>
+</html>

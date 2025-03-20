@@ -1,0 +1,24 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        enter the number 1-3<input id="num">
+        <button onclick="check()">submit</button>
+        <script>
+            function check()
+                {
+                    const num=parseInt(document.getElementById("num").value);
+                    switch(num)
+                    {
+                        case 1: document.write("enter the number 1");break;
+                        case 2: document.write("enter the number 2");break;
+                        case 3: document.write("enter the number 3");break;
+                        default: document.write("number is defult");break;
+                    }
+                }
+            
+
+        </script>
+    </body>
+</html>
