@@ -1,0 +1,21 @@
+<script>
+    var names=[1,2,3,4,5,6,7]
+    document.write(names[3]+"<br>");
+    document.write(names[6]+"<br>")
+    document.write(names)
+    for(i=0;i<=names.length-1;i++)
+{
+    document.write(names[i]+"<br>");
+}
+for(i in names)
+{
+    document.write(i+"<br>")
+}
+var sum=0;
+ for(i of names)
+ {
+    sum=sum+i;
+   
+ }
+ document.write(sum);
+</script>
